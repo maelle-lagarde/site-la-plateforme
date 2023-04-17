@@ -41,6 +41,13 @@ h4 {
     color: #336699;
 }
 
+h5 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -194,7 +201,7 @@ article {
 }
 
 .transformation {
-    margin: 0 60px 0 120px;
+    padding: 60px 60px 120px 60px;
 }
 
 .transfonum {
@@ -202,11 +209,102 @@ article {
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-    align-items: flex-start;
     margin-bottom: 60px;
     margin-top: 60px;
 }
 
 .icon {
     margin-right: 30px;
+}
+
+.temoignages {
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 20px;
+    background-color: #ffa000!important;
+}
+
+.temoignages div{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.temoignages p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.temoignages h1 {
+    color: white;
+}
+
+.column {
+    padding: 50px 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #313131!important;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.column li {
+    color: white;
+    list-style-type: none;
+    margin-left: -40px;
+    padding-top: 10px;
+}
+
+.column a {
+    text-decoration: none;
+    color: white;
+}
+
+.row p {
+    font-size: 13px;
+    color: white;
+}
+
+.row {
+    background-color: black!important;
+    padding: 10px 30px 10px 30px;
+}
+
+.row a {
+    text-decoration: none;
+    color: white;
+}
+
+.informations i {
+    color: white;
+    padding-left: 10px;
+}
+
+#button-contact {
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#button-equipes {
+    font-size: 16px;
+    padding:5px 20px 5px 20px;
+    background-color: white;
+}
+
+#button-equipes a {
+    color: black;
+}
+
+#button-brochure {
+    margin-top: 10px;
+    font-size: 16px;
+    padding:5px 20px 5px 20px;
+    background-color: #fe6b26;
 }
